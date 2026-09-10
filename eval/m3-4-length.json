@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-09-08T14:08:19",
+  "change": "M3-4 프롬프트에 길이 제약 추가 (400자, 3~5문장)",
+  "recall_at_5": 0.0,
+  "sample_count": 200,
+  "graded_count": 200,
+  "hit_count": 0,
+  "mean_best_score": 0.6912,
+  "answer_accuracy": 0.2361,
+  "scored_count": 200,
+  "refusal_rate": 0.0,
+  "answered_count": 200,
+  "refused_count": 0,
+  "refusal_reasons": {},
+  "failed_count": 0,
+  "answer_similarity": 0.8099,
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 5,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

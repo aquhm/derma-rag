@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-09-10T12:18:12",
+  "change": "M4-2 비교 상대편: 우리 구현을 오늘 코드로 재측정 (누출 없는 색인)",
+  "recall_at_3": 0.0,
+  "sample_count": 200,
+  "graded_count": 200,
+  "hit_count": 0,
+  "mean_best_score": 0.8801,
+  "answer_accuracy": 0.3213,
+  "scored_count": 174,
+  "refusal_rate": 0.13,
+  "answered_count": 174,
+  "refused_count": 26,
+  "refusal_reasons": {
+    "근거 없음": 25,
+    "안전 규칙 위반": 1
+  },
+  "failed_count": 0,
+  "answer_similarity": 0.8624,
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 3,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "material": "qa",
+    "sample_size": 200,
+    "seed": 42,
+    "index": "aihub-qa-holdout.npz"
+  }
+}

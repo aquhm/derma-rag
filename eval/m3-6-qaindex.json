@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-09T10:19:16",
+  "change": "M3-6 QA쌍(질문+답변) 색인. 평가 200건은 색인에서 제외",
+  "answer_accuracy": 0.3153,
+  "scored_count": 179,
+  "refused_count": 20,
+  "config": {
+    "indexed_qa": 8831,
+    "top_k": 3,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

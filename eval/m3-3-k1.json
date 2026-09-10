@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-08T16:24:36",
+  "change": "M3-3 k=1 (근거 1건만)",
+  "recall_at_1": 0.0,
+  "sample_count": 200,
+  "graded_count": 200,
+  "hit_count": 0,
+  "mean_best_score": 0.6912,
+  "answer_accuracy": 0.2374,
+  "scored_count": 199,
+  "refusal_rate": 0.005,
+  "answered_count": 199,
+  "refused_count": 1,
+  "refusal_reasons": {
+    "안전 규칙 위반": 1
+  },
+  "failed_count": 0,
+  "answer_similarity": 0.8194,
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 1,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

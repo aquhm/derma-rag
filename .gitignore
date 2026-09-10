@@ -1,0 +1,35 @@
+# 원본 데이터 — 절대 커밋 금지 (MEMORY.md D-006, docs/DATASETS.md)
+data/
+!data/README.md
+
+# 색인 산출물
+*.npz
+index/
+
+# Python
+.venv/
+# M4-2 비교 실험용 별도 환경 (227 MB). 재현 방법은
+# experiments/m4-2-llamaindex/README.md에 있다.
+.venv-llamaindex/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# 평가 원본 로그 (집계 결과만 커밋)
+eval/raw/
+
+# 생성된 검사 보고서. 데이터셋 메타데이터(저자 실명, 소속)가 찍혀 있다.
+# 본문은 없지만 개인정보 재배포에 해당한다. 폴더 규칙 문서만 남긴다.
+# 다시 만들려면: python scripts/inspect_dataset.py --out docs/reports/...
+docs/reports/*.md
+!docs/reports/README.md
+
+# 린터 캐시
+.ruff_cache/
+
+# OS / 에디터
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

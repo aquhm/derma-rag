@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-09T09:02:57",
+  "change": "ablation: 검색 근거를 무작위 문단 3건으로 치환",
+  "answer_accuracy": 0.2272,
+  "scored_count": 167,
+  "config": {
+    "top_k": 3,
+    "gen_model": "qwen2.5:3b",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

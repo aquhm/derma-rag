@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-08T16:04:18",
+  "change": "M3-4 길이 제약 (케이스별 기록 추가)",
+  "answer_accuracy": 0.2325,
+  "scored_count": 199,
+  "refusal_rate": 0.0,
+  "answered_count": 199,
+  "refused_count": 0,
+  "refusal_reasons": {},
+  "failed_count": 1,
+  "sample_count": 200,
+  "answer_similarity": 0.8006,
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 5,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

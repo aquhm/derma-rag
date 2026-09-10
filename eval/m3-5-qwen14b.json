@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-09T10:20:32",
+  "change": "M3-5 생성 모델 qwen2.5:3b -> 14b (발췌 색인 유지)",
+  "recall_at_3": 0.0,
+  "sample_count": 200,
+  "graded_count": 200,
+  "hit_count": 0,
+  "mean_best_score": 0.6912,
+  "answer_accuracy": 0.2011,
+  "scored_count": 171,
+  "refusal_rate": 0.145,
+  "answered_count": 171,
+  "refused_count": 29,
+  "refusal_reasons": {
+    "근거 없음": 29
+  },
+  "failed_count": 0,
+  "answer_similarity": 0.7647,
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 3,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:14b",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-08T12:58:53",
+  "change": "M2-8 기준선. bge-m3 + 근거 발췌 색인",
+  "recall_at_5": 0.0,
+  "sample_count": 200,
+  "graded_count": 200,
+  "hit_count": 0,
+  "mean_best_score": 0.6912,
+  "answer_accuracy": 0.2372,
+  "scored_count": 182,
+  "refusal_rate": 0.057,
+  "answered_count": 182,
+  "refused_count": 11,
+  "refusal_reasons": {
+    "근거 없음": 11
+  },
+  "failed_count": 7,
+  "answer_similarity": 0.8185,
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 5,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

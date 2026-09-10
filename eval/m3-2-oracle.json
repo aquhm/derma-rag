@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-09T08:52:25",
+  "change": "M3-2 오라클 메타데이터 필터 (질문자 피부 유형을 안다고 가정)",
+  "answer_accuracy": 0.2382,
+  "scored_count": 198,
+  "fallback_count": 39,
+  "config": {
+    "top_k": 3,
+    "overfetch": 40,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

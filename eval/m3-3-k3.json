@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-08T16:11:25",
+  "change": "M3-3 k=5→3 (min_score 유지)",
+  "recall_at_3": 0.0,
+  "sample_count": 200,
+  "graded_count": 200,
+  "hit_count": 0,
+  "mean_best_score": 0.6912,
+  "answer_accuracy": 0.238,
+  "scored_count": 198,
+  "refusal_rate": 0.01,
+  "answered_count": 198,
+  "refused_count": 2,
+  "refusal_reasons": {
+    "근거 없음": 2
+  },
+  "failed_count": 0,
+  "answer_similarity": 0.8112,
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 3,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-09T11:21:45",
+  "change": "M3-6 QA쌍 색인 채택 확인 (색인에 평가 200건 포함 - 누출 있음)",
+  "recall_at_3": 0.0,
+  "sample_count": 200,
+  "graded_count": 200,
+  "hit_count": 0,
+  "mean_best_score": 0.9341,
+  "answer_accuracy": 0.6656,
+  "scored_count": 188,
+  "refusal_rate": 0.06,
+  "answered_count": 188,
+  "refused_count": 12,
+  "refusal_reasons": {
+    "근거 없음": 10,
+    "안전 규칙 위반": 2
+  },
+  "failed_count": 0,
+  "answer_similarity": 0.8888,
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 3,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "material": "qa",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

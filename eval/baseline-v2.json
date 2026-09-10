@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-09-08T15:46:51",
+  "change": "기준선 프롬프트 재측정 (케이스별 기록 추가)",
+  "answer_accuracy": 0.2363,
+  "scored_count": 182,
+  "refusal_rate": 0.0521,
+  "answered_count": 182,
+  "refused_count": 10,
+  "refusal_reasons": {
+    "근거 없음": 10
+  },
+  "failed_count": 8,
+  "sample_count": 200,
+  "answer_similarity": 0.8182,
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 5,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "sample_size": 200,
+    "seed": 42
+  }
+}

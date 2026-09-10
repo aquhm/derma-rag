@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-10T12:06:12",
+  "change": "M4-2 LlamaIndex로 재구현 (같은 재료·모델·k·임계값)",
+  "sample_count": 200,
+  "answer_accuracy": 0.3169,
+  "scored_count": 194,
+  "answered_count": 194,
+  "refused_count": 5,
+  "refusal_rate": 0.0251,
+  "refusal_reasons": {
+    "모델이 답을 못 만듦": 5
+  },
+  "failed_count": 1,
+  "answer_latency_p50": 5.73,
+  "config": {
+    "framework": "llama-index-core 0.14.24",
+    "chunk_size": 8192,
+    "chunk_overlap": 0,
+    "top_k": 3,
+    "min_score": 0.35,
+    "embed_model": "bge-m3",
+    "gen_model": "qwen2.5:3b",
+    "material": "qa",
+    "sample_size": 200,
+    "seed": 42,
+    "index": "llamaindex/"
+  }
+}
